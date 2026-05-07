@@ -1,0 +1,25 @@
+{
+    "name": "iranimij/iranimij-core",
+    "description": "Iranimij shared foundation: serialization, config, filesystem helpers.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Iman Aboheydary (Iranimij)",
+            "email": "iranimij@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Iranimij\\Core\\": ""
+        }
+    }
+}
